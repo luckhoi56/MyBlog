@@ -1,7 +1,31 @@
-html, body{
-    display: flex;
-    align-items: center;
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 200px 300px 50px;
 }
-.profile-picture{
-    border-radius:40%;
+.header{
+    grid-column: span 12;
+}
+.body{
+    display:flex;
+    grid-column: span 12;
+}
+.footer{
+    grid-column: span 12;
+}
+.left{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.right{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
 }
