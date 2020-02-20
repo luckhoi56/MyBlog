@@ -1,0 +1,7 @@
+html, body{
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    border-radius:40%;
+}
