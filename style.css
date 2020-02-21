@@ -14,46 +14,36 @@ figure figcaption{
 }
 .div2{
     grid-area:2/1/4/3;
+    background-image: url("img/background2.jpg");
 }
 .div3{
     grid-area: 4/1/6/3;
+    background-image: url("img/background2.jpg");
 }
 .div4{
     grid-area: 2/3/6/6;
     align-items: center;
+    background-image: url("img/background2.jpg");
 }
 .content4{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #778899;
+    color:black;
+    
 }
-.footer{
-    grid-column: span 12;
-}
-
 .left1{
     
     flex-wrap: wrap;
-    width: 200x;
+    
     display: flex;
     font-family: "Lobster",serif;
     flex-flow:column;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 1rem;
     padding: 2rem;
 }
-.left2{
-    flex-wrap: wrap;
-    width: 200px;
-    display: flex;
-    font-family: "Lobster",serif;
-    flex-flow:column;
-    align-items: right;
-    border: 1px solid black;
-    border-radius: 1rem;
-    padding: 2rem;
-}
+
 .right{
     width: 800px;
     display: flex;
@@ -67,7 +57,7 @@ figure figcaption{
 
 /*typewriter effect */
 .typewriter h1 {
-    font-family: monospace; /* Web-safe typewriter-like font */
+    font-family: mono; /* Web-safe typewriter-like font */
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .17em solid pink; /* The typewriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
