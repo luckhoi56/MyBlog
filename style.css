@@ -1,21 +1,40 @@
+figure figcaption{
+    text-align: left;
+}
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 200px 300px 50px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1ft);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
-.header{
-    grid-column: span 12;
+.div1{
+    grid-area: 1/1/2/6;
     background-image: url("img/background.jpg");
 }
-.body{
+.div2{
+    grid-area:2/1/4/3;
+}
+.div3{
+    grid-area: 4/1/6/3;
+}
+.div4{
+    grid-area: 2/3/6/6;
+    align-items: center;
+}
+.content4{
     display:flex;
-    grid-column: span 12;
+    justify-content: center;
+    align-items: center;
 }
 .footer{
     grid-column: span 12;
 }
-.left{
-    grid-column: span 8;
+
+.left1{
+    
+    flex-wrap: wrap;
+    width: 200x;
     display: flex;
     font-family: "Lobster",serif;
     flex-flow:column;
@@ -24,8 +43,19 @@
     border-radius: 1rem;
     padding: 2rem;
 }
+.left2{
+    flex-wrap: wrap;
+    width: 200px;
+    display: flex;
+    font-family: "Lobster",serif;
+    flex-flow:column;
+    align-items: right;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
 .right{
-    grid-column: span 4;
+    width: 800px;
     display: flex;
     flex-flow:column;
     align-items: center;
