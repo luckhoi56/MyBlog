@@ -34,7 +34,7 @@ figure figcaption{
 .left1{
     
     flex-wrap: wrap;
-    
+    color: white;
     display: flex;
     font-family: "Lobster",serif;
     flex-flow:column;
