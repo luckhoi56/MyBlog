@@ -1,9 +1,9 @@
 /* Buttons */
 .btn {
-  width: 150px;
+  width: auto;
   padding: 10px 0;
   font-family: 'Playfair Display', serif;
-  font-size: 1.1em;
+  font-size: auto;
   letter-spacing: 0.1em;
   text-align: center;
   text-transform: uppercase;

@@ -3,28 +3,40 @@
 @import "button.css";
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,1ft);
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(7,1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 .div1{
-    grid-area: 1/1/2/6;
+    grid-area: 1/1/2/7;
     background-color: #FFA500;
 }
 .div2 {
-    grid-area:2/1/4/3;
+    grid-area:2/1/5/3;
     
-    align-items: start;
+   
     background-color: #FFFFF0;
 }
 .div3{
-    grid-area: 4/1/6/3;
+    grid-area: 5/3/8/5;
     background-color: #FFFFF0;
 }
 .div4{
-    grid-area: 2/3/6/6;
-    align-items: center;
+    grid-area: 5/1/8/3;
+    
+    background-color: #FFFFF0;
+}
+.div5{
+    grid-area:2/3/5/5;
+    background-color: #FFFFF0;
+}
+.div6{
+    grid-area:2/5/5/7;
+    background-color: #FFFFF0;
+}
+.div7{
+    grid-area:5/5/8/7;
     background-color: #FFFFF0;
 }
 .content4{
@@ -54,13 +66,17 @@
 }
 .text-gradient{
         position: absolute;
-        
-        padding: 20px;
-        width: 100%;
+        font-size: auto;
+        padding: auto;
+        width: auto;
         bottom: 0;
         text-align: center;
         background: rgb(0, 0, 0); /* Fallback color */
         background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
         color: #ffffff;
         
+}
+.profile-picture{
+    height:250px;
+    width:100%;
 }
