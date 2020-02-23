@@ -1,6 +1,6 @@
 @import "typeWriter.css";
 @import "navBar.css";
-
+@import "button.css";
 .wrapper{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -16,15 +16,16 @@
     grid-area:2/1/4/3;
     
     align-items: start;
+    background-color: #FFFFF0;
 }
 .div3{
     grid-area: 4/1/6/3;
-    
+    background-color: #FFFFF0;
 }
 .div4{
     grid-area: 2/3/6/6;
     align-items: center;
-    
+    background-color: #FFFFF0;
 }
 .content4{
     font-family: "Times New Roman", Times, serif;
@@ -33,7 +34,7 @@
     
 }
 .left1{
-    
+    position: relative;
     flex-wrap: wrap;
     display: flex;
     font-family: "Lobster",serif;
@@ -52,12 +53,14 @@
     padding: 2rem;
 }
 .text-gradient{
-    grid-area:2/2/4/3;
-            
-        text-align: center;
+        position: absolute;
         
-        background: rgba(0, 0, 0, 0.8);
-        font-family: Arial,sans-serif;
-        color: #fff;
+        padding: 20px;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #ffffff;
         
 }
