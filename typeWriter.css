@@ -1,5 +1,5 @@
 /*typewriter effect */
-.typewriter h1 {
+.typewriter h1{
     font-family: mono; /* Web-safe typewriter-like font */
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .17em solid pink; /* The typewriter cursor */
