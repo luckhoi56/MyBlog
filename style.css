@@ -1,6 +1,7 @@
 @import "typeWriter.css";
 @import "navBar.css";
 @import "button.css";
+@import "subscribe.css";
 .wrapper{
     display: grid;
     grid-template-columns: repeat(6,1fr);
