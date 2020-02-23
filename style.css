@@ -1,8 +1,6 @@
 @import "typeWriter.css";
 @import "navBar.css";
-figure figcaption{
-    text-align: left;
-}
+
 .wrapper{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -12,20 +10,21 @@ figure figcaption{
 }
 .div1{
     grid-area: 1/1/2/6;
-    background-image: url("img/background.jpg");
+    background-color: #FFA500;
 }
-.div2{
+.div2 {
     grid-area:2/1/4/3;
-    background-image: url("img/background2.jpg");
+    
+    align-items: start;
 }
 .div3{
     grid-area: 4/1/6/3;
-    background-image: url("img/background2.jpg");
+    
 }
 .div4{
     grid-area: 2/3/6/6;
     align-items: center;
-    background-image: url("img/background2.jpg");
+    
 }
 .content4{
     font-family: "Times New Roman", Times, serif;
@@ -36,14 +35,11 @@ figure figcaption{
 .left1{
     
     flex-wrap: wrap;
-    color: white;
     display: flex;
     font-family: "Lobster",serif;
     flex-flow:column;
-    align-items: center;
-    border: 1px solid white;
-    border-radius: 1rem;
-    padding: 2rem;
+    align-items:flex-start;
+    
 }
 
 .right{
@@ -55,5 +51,13 @@ figure figcaption{
     border-radius: 1rem;
     padding: 2rem;
 }
-
-
+.text-gradient{
+    grid-area:2/2/4/3;
+            
+        text-align: center;
+        
+        background: rgba(0, 0, 0, 0.8);
+        font-family: Arial,sans-serif;
+        color: #fff;
+        
+}
